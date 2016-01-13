@@ -1,11 +1,11 @@
 {
   "name": "wave-it",
   "main": "./lib/wave-it",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A package to switch every two letter on uppercase.",
   "keywords": [
-      "wave",
-      "wavy"
+    "wave",
+    "wavy"
   ],
   "activationCommands": {
     "atom-workspace": "wave-it:toggle"
@@ -15,6 +15,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
