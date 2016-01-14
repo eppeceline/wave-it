@@ -37,7 +37,7 @@ module.exports = WaveIt =
                 iToken = 2
                 word = word.join ''
 
-            if /^([A-Z][a-z])+[A-Z]?$/.test sText
+            if /([A-ZÀÁÂÃÄÅÇÑÈÉÊËÌÍÎÏÒÓÔÕÖØÙÚÛÜÝ][a-zàáâãäåçèéêëìíîïðòóôõöøñùúûüýÿ])+[A-ZÀÁÂÃÄÅÇÑÈÉÊËÌÍÎÏÒÓÔÕÖØÙÚÛÜÝ]?/.test sText
                 editor.insertText( fInvert( sText ), { "select" : true } )
             else
                 editor.insertText( fWave( sText ), { "select" : true } )
