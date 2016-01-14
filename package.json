@@ -1,7 +1,7 @@
 {
   "name": "wave-it",
   "main": "./lib/wave-it",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package to switch every two letter on uppercase.",
   "keywords": [
     "wave",
